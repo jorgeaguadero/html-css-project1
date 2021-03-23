@@ -1,0 +1,30 @@
+form {
+    margin: auto;
+    max-width: 800px;
+    min-width: 400px;
+}
+[required] {
+    border: solid red;
+}
+fieldset {
+    background-color: rgb(170, 170, 170);
+    padding: 1em;
+}
+fieldset:hover {
+    background-color: grey;
+}
+
+fieldset:first-child {
+    border-bottom: solid black 5px;
+}
+
+fieldset:nth-child(3) {
+    /*Aquí lo he intentado con fieldset:last-child pero no me ha funcionado*/
+    border-bottom: solid black 5px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border: none;
+}

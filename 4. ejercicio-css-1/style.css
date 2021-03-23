@@ -1,0 +1,28 @@
+.lista li:last-child {
+    background-color: rgb(0, 0, 255);
+}
+
+.lista li:nth-child(even) {
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+.lista li {
+    display: inline;
+    gap: 10px;
+}
+
+.lista li::after {
+    content: 'emoji';
+}
+[lang='en'] {
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+#provincias {
+    list-style-type: upper-roman;
+}
+#provincias li:nth-child(2) {
+    list-style-type: none;
+}
